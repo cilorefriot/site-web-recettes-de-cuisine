@@ -1,0 +1,135 @@
+body {
+    background-color: #fffaf5;
+    color: #2d2a26;
+    font-family: 'Nunito', Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Fredoka', Arial, sans-serif;
+}
+
+h1 {
+    color: #e8603c;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fde8df;
+}
+
+a {
+    color: #e8603c;
+}
+
+.navbar {
+    background-color: white;
+    border-bottom: 1px solid #eee4dc;
+}
+
+.navbar-brand {
+    color: #e8603c;
+    font-family: 'Fredoka', Arial, sans-serif;
+}
+
+.encadre {
+    background-color: #fde8df;
+    border-radius: 12px;
+    padding: 15px 25px;
+    height: 100%;
+}
+
+.encadre h2 {
+    margin-top: 0;
+    border-bottom: none;
+}
+
+.carte-recette {
+    background-color: white;
+    border: 1px solid #eee4dc;
+    border-radius: 12px;
+    padding: 15px;
+    height: 100%;
+}
+
+.carte-recette h2 {
+    margin-top: 0;
+    border-bottom: none;
+}
+
+.photo-carte {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.photo-carousel {
+    height: 450px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.legende-carousel {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+ol li {
+    margin-bottom: 8px;
+}
+
+.etoiles {
+    color: #f5b301;
+    font-size: 2rem;
+}
+
+.commentaires {
+    background-color: white;
+    border: 1px solid #eee4dc;
+    border-radius: 12px;
+    padding: 15px 25px;
+    margin-top: 30px;
+}
+
+.commentaires h2 {
+    margin-top: 0;
+    border-bottom: none;
+}
+
+.autres-recettes {
+    margin-top: 30px;
+}
+
+.autres-recettes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 0;
+}
+
+.autres-recettes li {
+    list-style-type: none;
+    padding: 10px 20px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px 0;
+    border-top: 1px solid #eee4dc;
+    color: #6b6560;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}

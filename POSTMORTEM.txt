@@ -1,0 +1,17 @@
+Postmortem
+
+TP site de recettes, groupe: Loïc Fortier, Maxime Redan, Alan Ryan Yomba, Groupe 2, 1A1.
+
+
+* Les difficultés rencontrées
+- Trouver des recettes drôles mais réelles. Beaucoup de recettes "bizarres" trouvées sur internet n'ont ni quantités ni étapes. Nous avons gardé uniquement des recettes complètes, avec une source fiable.
+- Traduire les recettes américaines. Il a fallu convertir les mesures (cups, °F, pouces) en grammes, millilitres, °C et centimètres.
+- Trouver des photos libres de droits. Il n'existe pas de photo libre de ces plats précis. Nous avons choisi des plats proches et crédité chaque auteur dans la page A propos.
+- L'espacement de la grille Bootstrap. Un fond posé directement sur une colonne recouvrait l'espace entre les colonnes. Nous avons ajouté une div à l'intérieur de chaque colonne pour porter le fond.
+- Les formats de photos différents. Les photos n'ont pas toutes les mêmes proportions, ce qui faisait changer la hauteur du carousel d'une image à l'autre. Nous l'avons réglé avec une hauteur fixe et object-fit: cover.
+- Les chemins relatifs. Après avoir rangé les fichiers dans les dossiers html, styles et images, il a fallu corriger les chemins (../images/…, ../styles/…).
+- Limiter Bootstrap. Le sujet autorise seulement la grille, la navbar et le carousel. Tout le reste (couleurs, polices, encadrés, cartes) est fait dans notre propre feuille de style.
+
+* Les perspectives d'évolution
+- Ajouter de nouvelles recettes rétro, les tester nous-mêmes et les illustrer avec nos propres photos.
+- Permettre aux visiteurs de noter les recettes avec un formulaire.
