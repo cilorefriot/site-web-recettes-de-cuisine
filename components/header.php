@@ -7,9 +7,9 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navMenu">
                         <ul class="navbar-nav ms-auto">
-                            <li class="nav-item"><a class="nav-link <?php if ($page == "accueil") { echo "active"; } ?>" href="index.php">Accueil</a></li>
-                            <li class="nav-item"><a class="nav-link <?php if ($page == "recettes") { echo "active"; } ?>" href="recettes.php">Recettes</a></li>
-                            <li class="nav-item"><a class="nav-link <?php if ($page == "a-propos") { echo "active"; } ?>" href="a-propos.php">A propos</a></li>
+                            <li class="nav-item"><a class="nav-link <?php if ($page == "accueil") { echo "active"; } ?>" href="../index.php">Accueil</a></li>
+                            <li class="nav-item"><a class="nav-link <?php if ($page == "recettes") { echo "active"; } ?>" href="../pages/recettes.php">Recettes</a></li>
+                            <li class="nav-item"><a class="nav-link <?php if ($page == "a-propos") { echo "active"; } ?>" href="../pages/a-propos.php">A propos</a></li>
                         </ul>
                     </div>
                 </div>
